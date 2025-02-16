@@ -1,17 +1,18 @@
-<response>
-    <multiply>
-        <input>
-            <x>4</x>
-            <y>5</y>
-        </input>
-        <output>20</output>
-    </multiply>
-    <divide>
-        <input>
-            <x>10</x>
-            <y>2</y>
-        </input>
-        <output>5</output>
-    </divide>
-</response>
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://example.com/math">
+    <soap:Body>
+        <tns:DivideResponse>
+            <result>5</result>
+        </tns:DivideResponse>
+    </soap:Body>
+</soap:Envelope>
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"  xmlns:tns="http://example.com/math">
+    <soap:Body>
+        <tns:MultiplyResponse>
+            <result>20</result>
+        </tns:MultiplyResponse>
+    </soap:Body>
+</soap:Envelope>
 
