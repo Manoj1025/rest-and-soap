@@ -1,21 +1,20 @@
 const soap = require('soap');
 const express = require('express');
 const fs = require('fs');
-
 const app = express();
 const wsdl = fs.readFileSync('calculatorService.wsdl', 'utf8');
 
 const mathService = {
-    Calculator: {  // Matches <service name="Calculator">
-        CalcPort: { // Matches <portType name="CalcPort">
-            multiply: (args) => { // Matches <operation name="multiply">
+    Calculator: {  
+        CalcPort: { 
+            multiply: (args) => {
                 console.log('Multiply Request:', args);
                 if (!args || typeof args.x === 'undefined' || typeof args.y === 'undefined') {
                     return { error: "Invalid input format" };
                 }
                 return { result: parseFloat(args.x) * parseFloat(args.y) };
             },
-            divide: (args) => { // Matches <operation name="divide">
+            divide: (args) => {
                 console.log('Divide Request:', args);
                 if (!args || typeof args.x === 'undefined' || typeof args.y === 'undefined') {
                     return { error: "Invalid input format" };
