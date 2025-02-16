@@ -9,7 +9,8 @@ RESTful API using Express.js
 SOAP API using Node-SOAP
 
 ## Directory Structure
-![Screenshot From 2025-02-17 01-03-05](https://github.com/user-attachments/assets/cf2e49d8-568f-49dc-a9ed-46c2c04a54d0)
+
+![Screenshot From 2025-02-17 01-03-05](https://github.com/user-attachments/assets/127605a7-f38e-4a24-a51b-d3875e74278c)
 
 
 
