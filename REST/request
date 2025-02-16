@@ -1,0 +1,24 @@
+POST http://localhost:3000/add
+{
+    "num1": 5,
+    "num2": 3
+}
+
+POST http://localhost:3000/subtract
+{
+    "num1": 8,
+    "num2": 2
+}
+
+POST http://localhost:3000/multiply
+{
+    "num1": 4,
+    "num2": 6
+}
+
+POST http://localhost:3000/divide
+{
+    "num1": 9,
+    "num2": 3
+}
+

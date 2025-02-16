@@ -1,0 +1,17 @@
+<response>
+    <multiply>
+        <input>
+            <x>4</x>
+            <y>5</y>
+        </input>
+        <output>20</output>
+    </multiply>
+    <divide>
+        <input>
+            <x>10</x>
+            <y>2</y>
+        </input>
+        <output>5</output>
+    </divide>
+</response>
+

@@ -1,0 +1,19 @@
+{
+    "add": {
+        "in": {"num1": 5, "num2": 3},
+        "out": {"answer": 8}
+    },
+    "subtract": {
+        "in": {"num1": 8, "num2": 2},
+        "out": {"answer": 6}
+    },
+    "multiply": {
+        "in": {"num1": 4, "num2": 6},
+        "out": {"answer": 24}
+    },
+    "divide": {
+        "in": {"num1": 9, "num2": 3},
+        "out": {"answer": 3}
+    }
+}
+
