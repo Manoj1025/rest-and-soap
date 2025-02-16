@@ -1,8 +1,19 @@
-Multiply Test:
-<x>4</x>
-<y>5</y>
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <DivideRequest xmlns="http://example.com/math">
+      <x>10</x>
+      <y>2</y>
+    </DivideRequest>
+  </soap:Body>
+</soap:Envelope>
 
-Divide Test:
-<x>10</x>
-<y>2</y>
-
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <MultiplyRequest xmlns="http://example.com/math">
+      <x>4</x>
+      <y>5</y>
+    </MultiplyRequest >
+  </soap:Body>
+</soap:Envelope>
