@@ -81,6 +81,16 @@ Node-SOAP
 
 Body-parser
 
+## REST API RESPONSE
+![c2](https://github.com/user-attachments/assets/ac3bc51d-5733-4feb-8cf0-7ee8f3f5ab8c)
+
+## SOAP API RESPONSE
+![c3](https://github.com/user-attachments/assets/f96ded98-75de-4223-8423-eea359d8a15f) ![c4](https://github.com/user-attachments/assets/75e61aba-eca7-45ea-a2f3-d9a571577825)
+
+
+
+
+
 ## Author
 [Manoj Paudel]
 
